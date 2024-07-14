@@ -3,8 +3,8 @@ name: Do a Duolingo lesson
 on:
   workflow_dispatch:
     inputs:
-      lessons:
-        default: 1
+      lessons: 2
+        default: 100
         description: 'Number of lessons to be completed'
         required: false
         type: number
